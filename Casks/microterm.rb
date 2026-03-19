@@ -1,6 +1,6 @@
 cask "microterm" do
-  version "0.0.2"
-  sha256 "b0faffbcf95d1a9e6b7688187087ae1aee92ded21bcfa375114fd822d871b0b9"
+  version "0.0.3"
+  sha256 "600596a39ac6648f6255e427fff1dd12c0d20b41302a9480abdee4b80af2bd8c"
 
   url "https://github.com/microclaw/microterm/releases/download/v#{version}/MicroTerm-#{version}.dmg"
   name "MicroTerm"
