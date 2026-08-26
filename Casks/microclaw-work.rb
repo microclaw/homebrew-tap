@@ -9,7 +9,7 @@ cask "microclaw-work" do
   homepage "https://github.com/microclaw/microclaw"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MicroClaw Work.app"
 end
