@@ -1,6 +1,6 @@
 cask "microclaw-work" do
-  version "0.5.4"
-  sha256 "be82d6d7e8f4a648dcf673984ed0c0e30f0f8b3fae6642b09a17099e9d2c2b8d"
+  version "0.6.1"
+  sha256 "70cd41d1c160f65a7441f82d4d57bae36972b4d2020e6409406356ee1fc01ad9"
 
   url "https://github.com/microclaw/microclaw/releases/download/v#{version}/microclaw-work-#{version}-arm64-macos.dmg"
   name "MicroClaw Work"
