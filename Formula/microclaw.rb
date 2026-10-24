@@ -5,11 +5,11 @@ class Microclaw < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/microclaw/microclaw/releases/download/v0.10.0/microclaw-0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "be989836f11d0874ecd6d85a5ae805c20dd60914cf276df9be0e26dbe2cc6cc7"
+      url "https://github.com/microclaw/microclaw/releases/download/v0.10.1/microclaw-0.10.1-aarch64-apple-darwin.tar.gz"
+      sha256 "168f38ce0f53730e06dba313cfae6c21c6a89253a8549912b9e391c4668ff3a1"
     else
-      url "https://github.com/microclaw/microclaw/releases/download/v0.10.0/microclaw-0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ca2619ee0a618d9f97cd78169ba2db48cbd21efed7b2f9ffcf7c5f0c13a57ba6"
+      url "https://github.com/microclaw/microclaw/releases/download/v0.10.1/microclaw-0.10.1-x86_64-apple-darwin.tar.gz"
+      sha256 "49b73fcc9277318418e3e798aa60dece60b56420c7f2000b5786908e120d05d5"
     end
   end
 
