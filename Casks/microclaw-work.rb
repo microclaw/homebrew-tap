@@ -1,8 +1,8 @@
 cask "microclaw-work" do
-  version "0.10.1"
-  sha256 "e1f2870a917cc705a0179a4301b7a8b1b835036e7a1d4d4ec766689ae2573f11"
+  version "0.11.0"
+  sha256 "84da2f4750610deb8f3c3f0e41e9e772ae727601d1b0531ba6abb1c9db3bd73f"
 
-  url "https://github.com/microclaw/microclaw/releases/download/v0.10.1/microclaw-work-#{version}-arm64-macos.dmg"
+  url "https://github.com/microclaw/microclaw/releases/download/v0.11.0/microclaw-work-#{version}-arm64-macos.dmg"
 
   name "MicroClaw Work"
   desc "Native desktop agent workspace powered by the shared MicroClaw runtime"
