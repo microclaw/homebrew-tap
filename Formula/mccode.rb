@@ -5,11 +5,11 @@ class Mccode < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/microclaw/microclaw/releases/download/v0.25.0/mccode-0.25.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2f7aac0cd4473b61815763ab82a2a0326e9caaf236b5173f1aaae3899f70ea19"
+      url "https://github.com/microclaw/microclaw/releases/download/v0.26.0/mccode-0.26.0-aarch64-apple-darwin.tar.gz"
+      sha256 "98883bd359c18bbbdfcd82456f3c8c9d38744527125850b86b7fbf8a7258ade7"
     else
-      url "https://github.com/microclaw/microclaw/releases/download/v0.25.0/mccode-0.25.0-x86_64-apple-darwin.tar.gz"
-      sha256 "347e4e9d369db2d993e435a13638a743a6e3ae8c0bd48cf137b183bdb95b0603"
+      url "https://github.com/microclaw/microclaw/releases/download/v0.26.0/mccode-0.26.0-x86_64-apple-darwin.tar.gz"
+      sha256 "e8425d49d5a2528e071ad4c03856436b19f00c33dc9695d4fe79f14e088ab5c2"
     end
   end
 
